@@ -1,0 +1,193 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-top{
+        display: none;
+    }
+    .header-bottom{
+        justify-content: flex-start;
+        height: 70px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .feture-contaier{
+        height: 1000px;
+    }
+    .feature-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .works-container{
+        height: 900px;
+    }
+    .works-sections{
+        height: 1000;
+    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .works-container-title{
+        margin: 0;
+        
+    }
+    .item-num{
+        font-size: 2rem;
+        margin: 1px;
+    }
+    .works-right-img{
+        height: 300px;
+      }
+      .works-item-para{
+        line-height: 20px;
+  font-size: 18px;
+  gap: 4px;
+      }
+      .works-left{
+        height: 400px;
+      }
+      .testemoniales-container{
+        height: 1000px;
+      }
+     .testemoniales-content{
+        flex-direction: column;
+        gap: 24px;
+
+     } 
+     #testemoniales-arrow1, #testemoniales-arrow2{
+        display: none;
+     }
+     .testemoniales-title{
+        font-size: 2rem;
+        margin-top: 60px;
+  margin-bottom: 20px;
+     }
+    .Get-started-content{
+        align-items: flex-start;
+     }
+     .Get-started-title{
+        font-size: 2rem;
+     }
+     .Get-started-para{
+        font-size: 24px;
+
+     }
+    .Get-started-btn{
+        margin-left: 8%;
+     }
+     .footer-top{
+        flex-direction: column;
+     }
+     .footer-top-row{
+        flex-direction: row;
+    }
+    .footer-bottom{
+        height: 10%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   /* @media only screen and (min-width: 768px) {
+        .header-top {
+          display: none;
+        }
+        .header-bottom {
+          justify-content: flex-start;
+          height: 70px;
+        }
+        .header-nav {
+          display: none;
+        }
+        .feture-contaier {
+          height: 1000px;
+        }
+        .feature-content {
+          flex-direction: column;
+          align-items: center;
+          gap: 40px;
+        }
+        .works-container {
+          height: 900px;
+        }
+        .works-sections {
+          height: 1000;
+      
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .works-container-title {
+          margin: 0;
+        }
+        .item-num {
+          font-size: 2rem;
+          margin: 1px;
+        }
+        .works-right-img {
+          height: 300px;
+        }
+        .works-item-para {
+          line-height: 20px;
+          font-size: 18px;
+          gap: 4px;
+        }
+        .works-left {
+          height: 400px;
+        }
+        .testemoniales-container {
+          height: 1000px;
+        }
+        .testemoniales-content {
+          flex-direction: column;
+          gap: 24px;
+        }
+        #testemoniales-arrow1,
+        #testemoniales-arrow2 {
+          display: none;
+        }
+        .testemoniales-title {
+          font-size: 2rem;
+          margin-top: 60px;
+          margin-bottom: 20px;
+        }
+        .Get-started-content {
+          align-items: flex-start;
+        }
+        .Get-started-title {
+          font-size: 2rem;
+        }
+        .Get-started-para {
+          font-size: 24px;
+        }
+        .Get-started-btn {
+          margin-left: 8%;
+        }
+        .footer-top {
+          flex-direction: column;
+        }
+        .footer-top-row {
+          flex-direction: row;
+        }
+        .footer-bottom {
+          height: 10%;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+        }
+      }*/
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
